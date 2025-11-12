@@ -20,7 +20,7 @@ Ao longo do projeto, integrei diferentes tecnologias e camadas para montar uma a
 ### 1.2 Fluxo resumido da pipeline
 A orquestração principal ficou estruturada da seguinte forma:
 
-<img src="./assets/img/workflows.png" alt="Fluxo da Pipeline" width="600">
+<img src="./assets/img/workflows.png" alt="Fluxo da Pipeline" width="800">
 <br><br>
 ```
 Start → DataIncremental.hpl  
@@ -44,7 +44,7 @@ A modelagem foi construída seguindo o padrão **estrela**, separando **dimensõ
 
 O objetivo foi garantir simplicidade para consultas, boa performance e flexibilidade para análises futuras.
 
-<img src="./assets/img/modelagem_tabelas.png" alt="Fluxo da Pipeline" width="600">
+<img src="./assets/img/modelagem_tabelas.png" alt="Fluxo da Pipeline" width="800">
 
 
 
